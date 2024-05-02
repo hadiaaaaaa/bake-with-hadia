@@ -1,0 +1,278 @@
+
+.navbar{
+    background-color: rgb(14, 5, 5);
+    border-radius: 30px;
+;position: sticky;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:left;
+    list-style: none; 
+    margin: 13px 20px;
+    
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color: red
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid rgb(81, 1, 1);
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.cart{
+width: auto;
+height:auto ;
+float: right;
+/* background:url(bg.jpg) no-repeat; */
+}
+#HD{
+font-size: 500%;
+font-family:'Times New Roman', Times, serif;
+-webkit-text-fill-color: rgb(243, 185, 185);
+text-align:start;
+}
+#HD2{
+    font-size: 300%;
+    font-family:'Times New Roman', Times, serif;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    text-align:start;
+    }
+#HD1{font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -webkit-text-fill-color: rgb(52, 5, 5);
+    text-align: center;}
+  
+#f{font-size: 200%;
+    -webkit-text-fill-color: rgb(243, 241, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;}
+.box1{
+width:300px ;
+height: 300px;
+object-position: center;
+float: left;
+/* background-color: aqua; */
+text-align: center;
+padding: 2%;
+}
+.box2:hover{background: #d9d1d1;}
+.box1:hover{background: #d9d1d1;}
+#ft{
+font-size: 15px;
+-webkit-text-fill-color: black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: justify;
+}
+.box2{
+    width:300px ;
+    height: 300px;
+    object-position: center;
+    float: left;
+    /* background-color: aqua; */
+    text-align: center;
+    padding: 2%;
+    }
+    .banner{
+        max-width: 1200px;
+        margin: 0 auto;
+        height: max-content;
+        background-image: url('bg.jpg');
+        padding: 4%;
+ 
+  
+        /* position:fixed; */
+
+        /* Set the background size to cover the entire div */
+        background-size: cover;
+    
+        /* Set the background position to center */
+        background-position: cover;
+        /* position: sticky; */
+    }
+ 
+    .img{
+      
+position: absolute;
+top: 220px;
+left: 710px;
+
+    }
+    .box3{
+        width:100%;
+        height: 100%;
+        object-position: left;
+        float: right;
+        /* background-color: aqua; */
+        /* text-align: right; */
+        padding: 2%;
+    }
+    .div4{
+        text-align: left;
+        -webkit-text-fill-color: ghostwhite;
+        width: 350px;
+        /* position: absolute;
+        top: 1700px;
+        left:150px;}
+         */
+    }
+.div5red{
+        text-align: left;
+        -webkit-text-fill-color: ghostwhite;
+        width: 400px;
+        height: 655px;
+        /* position: absolute;
+        top: 1700px;
+        left:600px; */
+        background-color: rgb(201, 47, 47);
+        opacity: 0.9;
+        padding: 1% 3% 3% 3%;
+    float: right;}
+    .banner2{
+        /* max-width: 1200px; */
+        width: 100%;
+        margin: 0 auto;
+        height: max-content;
+        background-image: url('b4.jpg');
+        padding-top: 6%;
+        padding-bottom: 6%;
+      /* position: fixed; */
+      /* top:700px; */
+
+      /* float: inline-start; */
+        /* Set the background size to cover the entire div */
+        background-size: cover;
+        
+        /* Set the background position to center */
+        background-position: center;
+        /* position: sticky; */
+    float: left;
+/* position: fixed;} */}
+.cont{
+    width:500px ;
+    height: 400px;
+    object-position: center;
+    float: right;
+    text-align: center;
+    padding: 2%;
+}
+.cont2{
+    width:400px ;
+    height: 400px;
+    object-position: center;
+    /* position: absolute; */
+    /* left:500px; */
+    float: left;
+    text-align: center;
+    padding: 2%;
+    object-position: center;
+   
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+}
+.pic{
+    width: 600px;
+    height: 500px;
+    border-style: double;
+    position: absolute;
+
+    /* float: left; */
+}
+
+.des{
+    width: max-content;
+    height: max-content;
+position: absolute;
+left: 630px;
+float: right;
+}
+#desf{
+    font-size: 30px;
+    -webkit-text-fill-color: rgb(66, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+}
+#small{
+    font-size: 20px;
+    -webkit-text-fill-color: rgb(66, 6, 6);
+    font-family: 'Times New Roman', Times, serif;
+
+
+
+}
+.div{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left:180px;
+    object-position: center;
+    
+    
+    }
+@media only screen and (max-width: 600px) {
+    .navbar {
+        border-radius: 0; /* Adjust border-radius for smaller screens if needed */
+    }
+
+    .navbar li {
+        float: none;
+        text-align: center;
+        margin: 13px 0; /* Adjust margin for smaller screens */
+    }
+
+    .search {
+        justify-content: center;
+        padding: 12px 0; /* Adjust padding for smaller screens */
+    }
+
+    .navbar input {
+        width: 100%; /* Make input width 100% for smaller screens */
+    }
+    .img{
+position: absolute;
+left: 200px;
+    }
+    #HD{
+        font-size: 300% ;
+    }
+    #HD1{
+        font-size: 7%;
+    }
+    #HD2{
+        font-size: 150%;
+    }
+    .pic{
+        width:300px ;
+        height:300px ;
+    }
+    .des{
+        left:300
+    }
+    .div{
+        left: 10px;
+    }
+}
+
